@@ -2,6 +2,7 @@ local SceneLoader={}
 
 local gameplayService=require("gameplayService")
 local assetManager=require("assetManager")
+local utils=require("utils")
 
 local sceneGame=require("sceneGame")
 
@@ -14,6 +15,7 @@ function SceneLoader.load(pScreenWidth,pScreenHeight)
   ---add images and sounds
   
   gameplayService.setAssetManager(assetManager)
+  gameplayService.setUtils(utils)
 end
 
 function SceneLoader.init(pGameState)
