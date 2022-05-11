@@ -13,8 +13,8 @@ function love.load()
   screenWidth=love.graphics.getWidth()
   screenHeight=love.graphics.getHeight()
   
-  sceneLoader.load()
-  sceneLoader.init("menu")
+  sceneLoader.load(screenWidth,screenHeight)
+  sceneLoader.init("gameplay")
 end
 
 function love.update(dt)
