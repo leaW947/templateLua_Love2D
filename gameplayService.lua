@@ -9,7 +9,7 @@ GameplayService.utils=nil
 
 function GameplayService.setSizeScreen(pWidth,pHeight)
   GameplayService.screenWidth=pWidth
-  GameplayService.screenHeigth=pHeight
+  GameplayService.screenHeight=pHeight
 end
 
 function GameplayService.setAssetManager(pAssetManager)
