@@ -1,5 +1,9 @@
 local Utils={}
 
+function Utils.angle(pX1,pY1,pX2,pY2)
+  return math.atan2(pY2-pY1, pX2-pX1)
+end
+
 function Utils.dist(pX1,pY1,pX2,pY2)
   return ((pX2-pX1)^2+(pY2-pY2)^2)^0.5
 end
